@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+    <Button
+        android:text="Make an Appointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MakeAppointment" />
+    <ListView
+        android:id="@+id/TaskList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>
